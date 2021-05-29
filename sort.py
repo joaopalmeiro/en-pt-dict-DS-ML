@@ -18,3 +18,4 @@ with open(PATH, "w") as f:
     for row in sorted_reader:
         writer.writerow(row)
 
+print("\n✨ Done!")
